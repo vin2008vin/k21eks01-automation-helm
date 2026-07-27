@@ -1,9 +1,9 @@
 name: Build and push docker image to ECR
 on:
   push:
-    branches: [ "maintest" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "maintest" ]
+    branches: [ "master" ]
 
 jobs:
   deploy:
