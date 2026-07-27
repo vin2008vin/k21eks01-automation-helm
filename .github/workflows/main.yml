@@ -1,9 +1,9 @@
 name: Build and push docker image to ECR
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "masterqq" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "masterqq" ]
     
 permissions:
   id-token: write   # This is required for requesting the JWT
